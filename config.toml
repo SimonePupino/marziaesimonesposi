@@ -2,3 +2,60 @@ baseURL = ""
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-stellar-theme"
+
+[params]
+  [params.header]
+    title = "Marzia e Simone sposi!!!"
+    description = 'Benvenuti sul sito del nostro matrimonio :D'
+    image = "images/m&s.png"
+
+  [[params.navigation]]
+    name = "Introduzione"
+    href = "#intro"
+
+  [[params.navigation]]
+    name = "Quando"
+    href = "#quando"
+
+  [[params.navigation]]
+    name = "Dove"
+    href = "#dove"
+
+  [[params.navigation]]
+    name = "Informazioni"
+    href = "#informazioni"
+
+    [params.intro]
+        title = "Ipsum sed adipiscing"
+        description = "Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam."
+        image = "images/pic01.jpg"
+        
+    [[params.section]]
+    id = "quando"
+    title = "Magna veroeros"
+    description = ""
+
+    [[params.section]]
+    id = "dove"
+    title = "Ipsum consequat"
+    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+
+    [[params.section]]
+    id = "informazioni"
+    title = "Congue imperdiet"
+    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+
+    [params.footer]
+    enable = true
+    title = "Aliquam sed mauris"
+    description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
+
+    second_title = "Etiam feugiat"
+    address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
+    phone = "(000) 000-0000 x 0000"
+    email = "information@untitled.tld"
+
+    # copyright
+    [params.footer.copyright]
+      enable = true
+      text = "© Untitled, Design: [HTML5UP](//html5up.net)"
