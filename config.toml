@@ -1,11 +1,11 @@
 baseURL = ""
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Marzie e Simone sposi!"
 theme = "hugo-stellar-theme"
 
 [params]
   [params.header]
-    title = "Marzia e Simone sposi!!!"
+    title = ""
     description = 'Benvenuti sul sito del nostro matrimonio :D'
     image = "images/m&s.png"
 
@@ -50,12 +50,10 @@ theme = "hugo-stellar-theme"
     title = "Aliquam sed mauris"
     description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
 
-    second_title = "Etiam feugiat"
-    address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
-    phone = "(000) 000-0000 x 0000"
-    email = "information@untitled.tld"
+    second_title = "Contattaci"
+    email = "marziagallesio@gmail.com s.pupino91@gmail.com"
 
     # copyright
     [params.footer.copyright]
       enable = true
-      text = "© Untitled, Design: [HTML5UP](//html5up.net)"
+      text = "© marziaesimonesposi.com, Design [HTML5UP](https://html5up.net), Site builded with [HUGO](https://gohugo.io/), Hosted on [Netlify](https://www.netlify.com/)"
