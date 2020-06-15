@@ -18,8 +18,8 @@ theme = "hugo-stellar-theme"
     href = "#quando"
 
   [[params.navigation]]
-    name = "Dove"
-    href = "#dove"
+    name = "Viaggio di nozze"
+    href = "#ViaggioDiNozze"
 
   [[params.navigation]]
     name = "Informazioni"
@@ -36,9 +36,20 @@ theme = "hugo-stellar-theme"
     description = ""
 
     [[params.section]]
-    id = "dove"
-    title = "Ipsum consequat"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+    id = "ViaggioDiNozze"
+    title = "Viaggio di nozze"
+    description = "La meta del nostro viaggio di nozza sarà il Giappone! Inizieremo la nostra avventura atterrando a Tokyo il dd/mm/yyyy e proseguiremo il nostro viaggio toccando le città di city1, city2, city3 per poi rientrare in Italia il dd/mm/yyyy."
+
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        image = "images/JapanTravelMap.jpg"
+
+      [[params.section.feature]]
+        icon = "fa-copy"
+
+      [[params.section.feature]]
+        icon = "fa-diamond"
 
     [[params.section]]
     id = "informazioni"
