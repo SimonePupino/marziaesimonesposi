@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #fd680e;
+  color: #fff;
 }
 
 a:hover {
-  color: #ff8f4c;
+  color: #02B6FF;
   text-decoration: none;
 }
 
@@ -88,14 +88,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #ffd2b7;
+  color: #fff;
   padding: 10px 20px;
   font-weight: 500;
   transition: 0.3s;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ffa26a;
+  color: #02B6FF;
   text-decoration: none;
 }
 
@@ -324,7 +324,7 @@ section {
 }
 
 .section-bg {
-  background-color: #fff7f2;
+  background-color: #cbe6ef;
 }
 
 .section-title {
@@ -541,9 +541,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #2f1708;
+  background: #cbe6ef;
   padding: 30px 0;
-  color: #fff;
+  color: #000;
   font-size: 14px;
 }
 
@@ -555,5 +555,9 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: #000;
+}
+
+#footer a {
+  color: blue;
 }
