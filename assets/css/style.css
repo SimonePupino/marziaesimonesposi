@@ -200,53 +200,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-shadow: 4px 4px 4px #aaa;
 }
 
-#hero .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#hero .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-#hero .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-#hero .php-email-form .loading {
-  display: none;
-  background: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  padding: 15px;
-  border-radius: 50px;
-}
-
-#hero .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading-notify 1s linear infinite;
-  animation: animate-loading-notify 1s linear infinite;
-}
-
 @-webkit-keyframes animate-loading-notify {
   0% {
     transform: rotate(0deg);
@@ -263,36 +216,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   100% {
     transform: rotate(360deg);
   }
-}
-
-#hero .php-email-form input {
-  border-radius: 50px;
-  box-shadow: none;
-  font-size: 14px;
-  border: 0;
-  padding: 0px 15px 2px 20px;
-  width: 250px;
-  height: 40px;
-  margin: 0 8px;
-}
-
-#hero .php-email-form button[type="submit"] {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: none;
-  color: #fff;
-  background: #fd680e;
-}
-
-#hero .php-email-form button[type="submit"]:hover {
-  background: #fd8841;
 }
 
 @media (min-width: 1024px) {
@@ -324,7 +247,7 @@ section {
 }
 
 .section-bg {
-  background-color: #cbe6ef;
+  background-color: #fff;
 }
 
 .section-title {
@@ -385,15 +308,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Bridal Registry
+# Honeymoon
 --------------------------------------------------------------*/
-.bridal-registry {
+.honeymoon {
   padding-bottom: 30px;
   background-color: white;
 }
 
 @media (max-width: 1024px) {
-  .bridal-registry {
+  .honeymoon {
     background-attachment: scroll;
   }
 }
@@ -407,7 +330,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #fd680e;
+  color: #02B6FF;
   float: left;
 }
 
@@ -420,97 +343,6 @@ section {
 
 .contact .info .email p {
   padding-top: 5px;
-}
-
-.contact .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #5a2c10;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-.contact .social-links a:hover {
-  background: #fd680e;
-  color: #fff;
-}
-
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #fd680e;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #fd680e;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #fd8841;
 }
 
 @media (max-width: 768px) {
