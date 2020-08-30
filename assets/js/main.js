@@ -7,6 +7,13 @@
 !(function($) {
   "use strict";
 
+  if ($('.countdown').length) {
+    var count = $('.countdown').data('count');
+    var template = $('.countdown').html();
+    $('.countdown').countdown(count, function(event) {
+      $(this).html(event.strftime(template));
+    });
+  }
   // Toggle nav menu
   $(document).on('click', '.nav-toggle', function(e) {
     $('.nav-menu').toggleClass('nav-menu-active');
