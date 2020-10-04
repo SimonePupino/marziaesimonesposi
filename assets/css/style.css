@@ -340,11 +340,6 @@ section {
   color: #666666;
 }
 
-.marziaesimone {
-  height: 50% !important;
-  width: 50% !important;
-} 
-
 /*--------------------------------------------------------------
 # When and Where
 --------------------------------------------------------------*/
@@ -408,6 +403,11 @@ section {
 
 .contact .info .email p {
   padding-top: 5px;
+  color: black;
+}
+
+.contact .info .email p:hover {
+  color: blue;
 }
 
 @media (max-width: 768px) {
